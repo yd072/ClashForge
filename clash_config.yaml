@@ -111,22 +111,6 @@ proxies:
   ws-path: /
   ws-headers:
     Host: 5a65fc0f36795c0b8119e96b7e6b3d8a.mobgslb.tbcache.com
-- name: 新加坡-优化2
-  type: vmess
-  server: m.cnmjin.net
-  port: 16618
-  uuid: 5d335ddf-2ae7-4331-835d-6f9593fe8287
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 5a65fc0f36795c0b8119e96b7e6b3d8a.mobgslb.tbcache.com
-  ws-path: /
-  ws-headers:
-    Host: 5a65fc0f36795c0b8119e96b7e6b3d8a.mobgslb.tbcache.com
 - name: 新加坡-优化3
   type: vmess
   server: t.cnmjcn.cyou
@@ -276,13 +260,6 @@ proxies:
   password: 5d335ddf-2ae7-4331-835d-6f9593fe8287
   udp: true
   sni: au.mjt000.com
-- name: 乌克兰UA-T
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: 5d335ddf-2ae7-4331-835d-6f9593fe8287
-  udp: true
-  sni: ua.mjt000.com
 - name: 英国UK-T
   type: trojan
   server: uk.mjt000.com
@@ -341,34 +318,6 @@ proxies:
   password: 79b25abf-8730-426a-ab47-7e92c6a68007
   udp: true
   sni: au.mjt000.com
-- name: 葡萄牙PT-T-oO73
-  type: trojan
-  server: pt.mjt000.com
-  port: 443
-  password: 79b25abf-8730-426a-ab47-7e92c6a68007
-  udp: true
-  sni: pt.mjt000.com
-- name: 俄罗斯RU-T-lmXD
-  type: trojan
-  server: ru.mjt000.com
-  port: 443
-  password: 79b25abf-8730-426a-ab47-7e92c6a68007
-  udp: true
-  sni: ru.mjt000.com
-- name: 乌克兰UA-T-06L7
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: 79b25abf-8730-426a-ab47-7e92c6a68007
-  udp: true
-  sni: ua.mjt000.com
-- name: 以色列IL-T-90Lf
-  type: trojan
-  server: il.mjt000.com
-  port: 443
-  password: 79b25abf-8730-426a-ab47-7e92c6a68007
-  udp: true
-  sni: il.mjt000.com
 - name: 英国UK-T-QSYS
   type: trojan
   server: uk.mjt000.com
@@ -420,20 +369,6 @@ proxies:
   password: 796c46f8-82a3-44e4-9937-0e5da73895dc
   udp: true
   sni: au.mjt000.com
-- name: 乌克兰UA-T-zTxD
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: 796c46f8-82a3-44e4-9937-0e5da73895dc
-  udp: true
-  sni: ua.mjt000.com
-- name: 以色列IL-T-uYmT
-  type: trojan
-  server: il.mjt000.com
-  port: 443
-  password: 796c46f8-82a3-44e4-9937-0e5da73895dc
-  udp: true
-  sni: il.mjt000.com
 - name: 英国UK-T-mLen
   type: trojan
   server: uk.mjt000.com
@@ -492,34 +427,6 @@ proxies:
   password: a9cda9d0-5802-400a-97da-66ceca68e8a2
   udp: true
   sni: au.mjt000.com
-- name: 土耳其TR-T-SrBa
-  type: trojan
-  server: tr.mjt000.com
-  port: 443
-  password: a9cda9d0-5802-400a-97da-66ceca68e8a2
-  udp: true
-  sni: tr.mjt000.com
-- name: 意大利IT-T-ovIq
-  type: trojan
-  server: it.mjt000.com
-  port: 443
-  password: a9cda9d0-5802-400a-97da-66ceca68e8a2
-  udp: true
-  sni: it.mjt000.com
-- name: 葡萄牙PT-T-4bRi
-  type: trojan
-  server: pt.mjt000.com
-  port: 443
-  password: a9cda9d0-5802-400a-97da-66ceca68e8a2
-  udp: true
-  sni: pt.mjt000.com
-- name: 俄罗斯RU-T-O6me
-  type: trojan
-  server: ru.mjt000.com
-  port: 443
-  password: a9cda9d0-5802-400a-97da-66ceca68e8a2
-  udp: true
-  sni: ru.mjt000.com
 - name: 新加坡SG-T-jC0K
   type: trojan
   server: sg.mjt000.com
@@ -556,27 +463,6 @@ proxies:
   password: d384ad6d-d259-45eb-ba2e-1799fa426ed4
   udp: true
   sni: au.mjt000.com
-- name: 朝鲜KP-T-CwXH
-  type: trojan
-  server: kp.mjt000.com
-  port: 443
-  password: d384ad6d-d259-45eb-ba2e-1799fa426ed4
-  udp: true
-  sni: kp.mjt000.com
-- name: 乌克兰UA-T-5vkm
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: d384ad6d-d259-45eb-ba2e-1799fa426ed4
-  udp: true
-  sni: ua.mjt000.com
-- name: 以色列IL-T-0HRa
-  type: trojan
-  server: il.mjt000.com
-  port: 443
-  password: d384ad6d-d259-45eb-ba2e-1799fa426ed4
-  udp: true
-  sni: il.mjt000.com
 - name: 英国UK-T-9bTO
   type: trojan
   server: uk.mjt000.com
@@ -635,13 +521,6 @@ proxies:
   password: a6f0acd5-0852-432a-b191-854658db6a92
   udp: true
   sni: ru.mjt000.com
-- name: 乌克兰UA-T-uWW5
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: a6f0acd5-0852-432a-b191-854658db6a92
-  udp: true
-  sni: ua.mjt000.com
 - name: 英国UK-T-vTZH
   type: trojan
   server: uk.mjt000.com
@@ -700,20 +579,6 @@ proxies:
   password: 06322978-709f-423e-b10b-fc2a845d9564
   udp: true
   sni: au.mjt000.com
-- name: 土耳其TR-T-cBU3
-  type: trojan
-  server: tr.mjt000.com
-  port: 443
-  password: 06322978-709f-423e-b10b-fc2a845d9564
-  udp: true
-  sni: tr.mjt000.com
-- name: 意大利IT-T-Sq27
-  type: trojan
-  server: it.mjt000.com
-  port: 443
-  password: 06322978-709f-423e-b10b-fc2a845d9564
-  udp: true
-  sni: it.mjt000.com
 - name: 葡萄牙PT-T-UUnA
   type: trojan
   server: pt.mjt000.com
@@ -728,20 +593,6 @@ proxies:
   password: 06322978-709f-423e-b10b-fc2a845d9564
   udp: true
   sni: ru.mjt000.com
-- name: 乌克兰UA-T-1QsR
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: 06322978-709f-423e-b10b-fc2a845d9564
-  udp: true
-  sni: ua.mjt000.com
-- name: 以色列IL-T-WXOm
-  type: trojan
-  server: il.mjt000.com
-  port: 443
-  password: 06322978-709f-423e-b10b-fc2a845d9564
-  udp: true
-  sni: il.mjt000.com
 - name: 英国UK-T-AfQF
   type: trojan
   server: uk.mjt000.com
@@ -786,20 +637,6 @@ proxies:
   password: 61339b6c-df0c-423c-93a6-84d7d4e234d1
   udp: true
   sni: hinet.mjt000.com
-- name: 越南VN-T-nRAk
-  type: trojan
-  server: vn.mjt000.com
-  port: 443
-  password: 61339b6c-df0c-423c-93a6-84d7d4e234d1
-  udp: true
-  sni: vn.mjt000.com
-- name: 澳大利亚AU-T-B6e6
-  type: trojan
-  server: au.mjt000.com
-  port: 443
-  password: 61339b6c-df0c-423c-93a6-84d7d4e234d1
-  udp: true
-  sni: au.mjt000.com
 - name: 英国UK-T-2P69
   type: trojan
   server: uk.mjt000.com
@@ -850,41 +687,6 @@ proxies:
   password: 5adfc828-440d-4022-9571-0299a905b98e
   udp: true
   sni: au.mjt000.com
-- name: 朝鲜KP-T-tAUY
-  type: trojan
-  server: kp.mjt000.com
-  port: 443
-  password: 5adfc828-440d-4022-9571-0299a905b98e
-  udp: true
-  sni: kp.mjt000.com
-- name: 葡萄牙PT-T-GHJl
-  type: trojan
-  server: pt.mjt000.com
-  port: 443
-  password: 5adfc828-440d-4022-9571-0299a905b98e
-  udp: true
-  sni: pt.mjt000.com
-- name: 俄罗斯RU-T-Tmn7
-  type: trojan
-  server: ru.mjt000.com
-  port: 443
-  password: 5adfc828-440d-4022-9571-0299a905b98e
-  udp: true
-  sni: ru.mjt000.com
-- name: 乌克兰UA-T-Hqzn
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: 5adfc828-440d-4022-9571-0299a905b98e
-  udp: true
-  sni: ua.mjt000.com
-- name: 以色列IL-T-lkvu
-  type: trojan
-  server: il.mjt000.com
-  port: 443
-  password: 5adfc828-440d-4022-9571-0299a905b98e
-  udp: true
-  sni: il.mjt000.com
 - name: 英国UK-T-sbNh
   type: trojan
   server: uk.mjt000.com
@@ -936,13 +738,6 @@ proxies:
   password: b6e5e633-a297-4614-88d5-49f94cda618f
   udp: true
   sni: au.mjt000.com
-- name: 乌克兰UA-T-6kNl
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: b6e5e633-a297-4614-88d5-49f94cda618f
-  udp: true
-  sni: ua.mjt000.com
 - name: 英国UK-T-l42w
   type: trojan
   server: uk.mjt000.com
@@ -1001,48 +796,6 @@ proxies:
   password: f89748f5-cee5-44dd-89fd-f6d49645d060
   udp: true
   sni: au.mjt000.com
-- name: 土耳其TR-T-wFHJ
-  type: trojan
-  server: tr.mjt000.com
-  port: 443
-  password: f89748f5-cee5-44dd-89fd-f6d49645d060
-  udp: true
-  sni: tr.mjt000.com
-- name: 意大利IT-T-QKgC
-  type: trojan
-  server: it.mjt000.com
-  port: 443
-  password: f89748f5-cee5-44dd-89fd-f6d49645d060
-  udp: true
-  sni: it.mjt000.com
-- name: 葡萄牙PT-T-mMID
-  type: trojan
-  server: pt.mjt000.com
-  port: 443
-  password: f89748f5-cee5-44dd-89fd-f6d49645d060
-  udp: true
-  sni: pt.mjt000.com
-- name: 俄罗斯RU-T-HQwE
-  type: trojan
-  server: ru.mjt000.com
-  port: 443
-  password: f89748f5-cee5-44dd-89fd-f6d49645d060
-  udp: true
-  sni: ru.mjt000.com
-- name: 乌克兰UA-T-P9mc
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: f89748f5-cee5-44dd-89fd-f6d49645d060
-  udp: true
-  sni: ua.mjt000.com
-- name: 以色列IL-T-s6yb
-  type: trojan
-  server: il.mjt000.com
-  port: 443
-  password: f89748f5-cee5-44dd-89fd-f6d49645d060
-  udp: true
-  sni: il.mjt000.com
 - name: 英国UK-T-AMPf
   type: trojan
   server: uk.mjt000.com
@@ -1066,13 +819,6 @@ proxies:
   udp: true
   sni: sg.mjt000.com
   skip-cert-verify: true
-- name: 美国USLA-T-GPT-8Hld
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: 14c564dd-aad6-4bf7-b6bb-02a360132dbf
-  udp: true
-  sni: usla.mjt000.com
 - name: 香港wap-T-pjhO
   type: trojan
   server: waphk.mjt000.com
@@ -1159,20 +905,6 @@ proxies:
   password: 258e9750-51ef-4a49-9035-8409cc4649f8
   udp: true
   sni: ru.mjt000.com
-- name: 乌克兰UA-T-psOb
-  type: trojan
-  server: ua.mjt000.com
-  port: 443
-  password: 258e9750-51ef-4a49-9035-8409cc4649f8
-  udp: true
-  sni: ua.mjt000.com
-- name: 以色列IL-T-lpc6
-  type: trojan
-  server: il.mjt000.com
-  port: 443
-  password: 258e9750-51ef-4a49-9035-8409cc4649f8
-  udp: true
-  sni: il.mjt000.com
 - name: 英国UK-T-l5Gc
   type: trojan
   server: uk.mjt000.com
@@ -1180,6 +912,120 @@ proxies:
   password: 258e9750-51ef-4a49-9035-8409cc4649f8
   udp: true
   sni: uk.mjt000.com
+- name: 🇸🇬 新加坡(三网)
+  type: vmess
+  server: jp-az.jiedian.stream
+  port: 443
+  uuid: 209c61ea-396c-4fd1-9ca8-bb48d8e40196
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: gw.alicdn.com
+- name: 🇯🇵 日本(三网) 1
+  type: vmess
+  server: jp-1.jiedian.stream
+  port: 80
+  uuid: 209c61ea-396c-4fd1-9ca8-bb48d8e40196
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gw.alicdn.com
+  ws-path: /
+  ws-headers:
+    Host: gw.alicdn.com
+- name: 🇯🇵 日本(三网) 2
+  type: vmess
+  server: jp-2.jiedian.stream
+  port: 80
+  uuid: 209c61ea-396c-4fd1-9ca8-bb48d8e40196
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gw.alicdn.com
+  ws-path: /
+  ws-headers:
+    Host: gw.alicdn.com
+- name: 🇯🇵 日本(三网) 3
+  type: vmess
+  server: jp-3.jiedian.stream
+  port: 80
+  uuid: 209c61ea-396c-4fd1-9ca8-bb48d8e40196
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gw.alicdn.com
+  ws-path: /
+  ws-headers:
+    Host: gw.alicdn.com
+- name: 🇸🇬 ip1 (预防dns污染)
+  type: vmess
+  server: 52.163.123.158
+  port: 443
+  uuid: 209c61ea-396c-4fd1-9ca8-bb48d8e40196
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: gw.alicdn.com
+- name: 🇺🇸 美国1 (预防时间错误)
+  type: vless
+  server: 172.67.203.211
+  port: 80
+  uuid: 209c61ea-396c-4fd1-9ca8-bb48d8e40196
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 241231.cdn01.top
+- name: 🇺🇸 美国2 (预防时间错误)
+  type: vless
+  server: 172.64.204.101
+  port: 80
+  uuid: 209c61ea-396c-4fd1-9ca8-bb48d8e40196
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 241015.cdn02.top
+- name: 🇺🇸 备用1 (预防dns污染)
+  type: vless
+  server: 192.9.241.40
+  port: 81
+  uuid: 209c61ea-396c-4fd1-9ca8-bb48d8e40196
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gw.alicdn.com
+- name: 🇺🇸 备用2 (预防dns污染)
+  type: vless
+  server: 129.153.126.128
+  port: 81
+  uuid: 209c61ea-396c-4fd1-9ca8-bb48d8e40196
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gw.alicdn.com
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1192,150 +1038,122 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies: &id001
-  - 日本-优化3
+  - 🇯🇵 日本(三网) 2
   - 新加坡-优化3
-  - 新加坡SG-T-3plv
-  - 新加坡-优化2
+  - 🇯🇵 日本(三网) 3
+  - 香港wap-T-5tTm
   - 香港wap-T-rJ3c
-  - 香港wap-T-LPYd
+  - 香港HY-优化2
+  - 台湾WAP-T-GPT-gfRi
+  - 台湾WAP-T-GPT
+  - 香港wap-T-EDPf
+  - 香港wap-T-R2sl
+  - 新加坡-优化
+  - 🇸🇬 新加坡(三网)
+  - 🇸🇬 ip1 (预防dns污染)
+  - 新加坡SG-T-z79J
+  - 香港wap-T
+  - 台湾WAP-T-GPT-Orqz
+  - 香港wap-T-oSBt
+  - 🇺🇸 备用1 (预防dns污染)
+  - 香港wap-T-PSM1
   - 新加坡SG-T-E4at
-  - 台湾WAP-T-GPT-OMOZ
+  - 日本-优化3
+  - 台湾WAP-T-GPT-P9vS
+  - 台湾WAP-T-GPT-7DFd
+  - 香港wap-T-uHZT
+  - 日本-优化2
+  - 香港wap-T-FGi6
   - 新加坡SG-T
   - 新加坡SG-T-jC0K
-  - 台湾-优化2-GPT
-  - 香港wap-T-PSM1
-  - 日本JP-T-CjtL
-  - 台湾WAP-T-GPT-YsHI
-  - 新加坡SG-T-tcR4
-  - 日本JP-T-7fs6
-  - 新加坡SG-T-PkxV
-  - 新加坡SG-T-jQtE
-  - 香港wap-T-oSBt
-  - 新加坡SG-T-tVHX
-  - 香港wap-T-Lwj9
-  - 香港wap-T-5tTm
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-gfRi
-  - 日本JP-T-TzPC
-  - 台湾WAP-T-GPT-IPsy
-  - 日本JP-T-oUJn
   - 台湾WAP-T-GPT-S4e5
-  - 日本JP-T-ZtHY
-  - 新加坡SG-T-oWPg
-  - 新加坡SG-T-ZFaE
-  - 新加坡-优化
-  - 日本JP-T-SiE6
-  - 香港wap-T
-  - 新加坡SG-T-z79J
-  - 香港wap-T-R2sl
-  - 日本JP-T-KwGS
-  - 新加坡SG-T-vCeE
-  - 台湾WAP-T-GPT-D5GQ
-  - 越南VN-T-DdWP
-  - 香港wap-T-uHZT
-  - 台湾WAP-T-GPT-Orqz
-  - 台湾WAP-T-GPT-PMfx
-  - 越南VN-T-7IHa
-  - 香港wap-T-r5jt
-  - 台湾WAP-T-GPT
-  - 新加坡SG-T-t5eV
-  - 澳大利亚AU-T-B4AQ
-  - 香港HY-优化2
-  - 日本-优化2
-  - 越南VN-T-nRAk
-  - 越南VN-T-sNz8
-  - 香港wap-T-FGi6
-  - 香港WAP-优化2
-  - 澳大利亚AU-T-gcKK
-  - 澳大利亚AU-T-zgZq
-  - 香港wap-T-pjhO
-  - 澳大利亚AU-T-QzUC
+  - 香港wap-T-LPYd
+  - 新加坡SG-T-3plv
+  - 台湾WAP-T-GPT-YsHI
+  - 新加坡SG-T-PkxV
+  - 台湾WAP-T-GPT-IPsy
   - 日本JP-T-pR3s
-  - 香港WAP-优化
+  - 香港wap-T-pjhO
+  - 新加坡SG-T-oWPg
+  - 日本JP-T-oUJn
+  - 日本JP-T-gEwa
+  - 台湾WAP-T-GPT-OMOZ
+  - 新加坡SG-T-vCeE
+  - 新加坡SG-T-tVHX
+  - 新加坡SG-T-ZFaE
+  - 日本JP-T-TzPC
+  - 台湾WAP-T-GPT-PMfx
   - 香港HY-优化
+  - 香港wap-T-Lwj9
+  - 🇯🇵 日本(三网) 1
+  - 日本JP-T-SiE6
+  - 新加坡SG-T-jQtE
+  - 日本JP-T-ZtHY
+  - 新加坡SG-T-tcR4
+  - 台湾WAP-T-GPT-D5GQ
+  - 香港wap-T-r5jt
+  - 日本JP-T-CjtL
+  - 香港WAP-优化2
+  - 日本JP-T-KwGS
+  - 日本JP-T-Rvm8
+  - 台湾WAP-T-GPT-rfqh
+  - 美国USLA-T-GPT-vy3b
+  - 越南VN-T-Al51
+  - 英国UK-T-9bTO
+  - 英国UK-T-AMPf
+  - 美国USLA-T-GPT-sOP7
+  - 英国UK-T
+  - 美国USLA-T-GPT-pa4s
   - 澳大利亚AU-T-vXXU
   - 台湾WAP-T-GPT-OuC9
-  - 澳大利亚AU-T-3ZjF
-  - 澳大利亚AU-T-B6e6
-  - 台湾WAP-T-GPT-P9vS
-  - 香港wap-T-EDPf
-  - 澳大利亚AU-T-ulWr
-  - 英国UK-T-9bTO
-  - 美国USLA-T-GPT-ltA2
-  - 日本JP-T-gEwa
-  - 美国USLA-T-GPT-w3b7
-  - 台湾-优化
-  - 澳大利亚AU-T-CdpO
-  - 澳大利亚AU-T-WtWF
-  - 澳大利亚AU-T-FTDp
-  - 英国UK-T-sbNh
+  - 新加坡SG-T-t5eV
   - 台湾-优化3
-  - 美国USLA-T-GPT-sOP7
-  - 越南VN-T-Al51
-  - 美国USLA-T-GPT-yIxS
-  - 以色列IL-T-s6yb
-  - 越南VN-T-om8a
-  - 乌克兰UA-T-P9mc
-  - 乌克兰UA-T-Hqzn
-  - 乌克兰UA-T-1QsR
-  - 美国USLA-T-GPT-DiQe
-  - 美国USLA-T-GPT-mYmu
-  - 美国USLA-T-GPT-vy3b
-  - 英国UK-T-AfQF
-  - 美国USLA-T-GPT-tPYz
-  - 乌克兰UA-T-zTxD
-  - 英国UK-T-mLen
-  - 剩余流量：98.85 GB
-  - 以色列IL-T-WXOm
-  - 乌克兰UA-T-psOb
-  - 美国USLA-T-GPT-Y2nU
-  - 美国USLA-T-GPT-3Y1T
-  - 以色列IL-T-90Lf
-  - 乌克兰UA-T-06L7
-  - 澳大利亚AU-T
-  - 以色列IL-T-lpc6
-  - 俄罗斯RU-T-HQwE
-  - 日本JP-T-Rvm8
-  - 俄罗斯RU-T-lmXD
-  - 俄罗斯RU-T-Tmn7
-  - 意大利IT-T-Sq27
-  - 俄罗斯RU-T-Mpbz
-  - 乌克兰UA-T-uWW5
-  - 意大利IT-T-ovIq
-  - 英国UK-T-AMPf
-  - 乌克兰UA-T-6kNl
+  - 越南VN-T-sNz8
   - 美国USLA-T-GPT
-  - 意大利IT-T-QKgC
-  - 朝鲜KP-T-CwXH
-  - 俄罗斯RU-T-O6me
-  - 朝鲜KP-T-tAUY
-  - 俄罗斯RU-T-hcQ5
-  - 台湾WAP-T-GPT-7DFd
-  - 葡萄牙PT-T-oO73
-  - 土耳其TR-T-wFHJ
-  - 美国USLA-T-GPT-pa4s
-  - 乌克兰UA-T-5vkm
-  - 以色列IL-T-uYmT
-  - 英国UK-T-QSYS
-  - 葡萄牙PT-T-UUnA
-  - 葡萄牙PT-T-HPGK
-  - 土耳其TR-T-cBU3
-  - 葡萄牙PT-T-mMID
-  - 葡萄牙PT-T-4bRi
-  - 越南VN-T-3peq
-  - 葡萄牙PT-T-GHJl
-  - 英国UK-T-vTZH
-  - 英国UK-T
-  - 俄罗斯RU-T-tD89
-  - 土耳其TR-T-SrBa
-  - 英国UK-T-l5Gc
+  - 日本JP-T-7fs6
+  - 美国USLA-T-GPT-3Y1T
+  - 澳大利亚AU-T-3ZjF
+  - 台湾-优化2-GPT
   - 英国UK-T-2P69
-  - 美国USLA-T-GPT-8Hld
-  - 澳大利亚AU-T-Ue1W
-  - 以色列IL-T-lkvu
+  - 香港WAP-优化
+  - 英国UK-T-l5Gc
+  - 英国UK-T-vTZH
+  - 澳大利亚AU-T-gcKK
+  - 英国UK-T-AfQF
+  - 美国USLA-T-GPT-w3b7
+  - 美国USLA-T-GPT-ltA2
+  - 台湾-优化
+  - 剩余流量：98.85 GB
+  - 美国USLA-T-GPT-tPYz
   - 英国UK-T-l42w
-  - 以色列IL-T-0HRa
-  - 乌克兰UA-T
+  - 葡萄牙PT-T-HPGK
+  - 英国UK-T-QSYS
+  - 美国USLA-T-GPT-yIxS
+  - 葡萄牙PT-T-UUnA
+  - 美国USLA-T-GPT-mYmu
+  - 英国UK-T-mLen
+  - 美国USLA-T-GPT-Y2nU
+  - 英国UK-T-sbNh
+  - 美国USLA-T-GPT-DiQe
+  - 澳大利亚AU-T-Ue1W
+  - 澳大利亚AU-T-CdpO
+  - 澳大利亚AU-T-ulWr
+  - 🇺🇸 备用2 (预防dns污染)
+  - 越南VN-T-om8a
+  - 俄罗斯RU-T-tD89
+  - 澳大利亚AU-T-QzUC
+  - 越南VN-T-3peq
+  - 🇺🇸 美国2 (预防时间错误)
+  - 澳大利亚AU-T
+  - 澳大利亚AU-T-WtWF
+  - 俄罗斯RU-T-Mpbz
+  - 俄罗斯RU-T-hcQ5
+  - 越南VN-T-7IHa
+  - 澳大利亚AU-T-B4AQ
+  - 越南VN-T-DdWP
+  - 🇺🇸 美国1 (预防时间错误)
+  - 澳大利亚AU-T-zgZq
+  - 澳大利亚AU-T-FTDp
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
